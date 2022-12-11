@@ -1,0 +1,21 @@
+from django.contrib import admin
+
+from logistic.models import Product, Stock, StockProduct
+
+
+# Register your models here.
+# @admin.register(Product)
+# class ProductAdmin(admin.ModelAdmin):
+#     pass
+#
+# @admin.register(Stock)
+# class StockAdmin(admin.ModelAdmin):
+#     pass
+#
+# @admin.register(StockProduct)
+# class StockProductAdmin(admin.ModelAdmin):
+#     pass
+
+admin.site.register(Product)
+admin.site.register(Stock)
+admin.site.register(StockProduct)
